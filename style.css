@@ -1,0 +1,41 @@
+form{
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #384747;
+    border-radius: 10px;
+    background-color: #a3d3db;
+}
+form div{
+    margin-bottom: 15px;
+    
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"],input[type="email"],textarea,select{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button[type="submit"  ]{
+    background-color: #a3f1c1;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type = "submit"]:hover{
+    background-color: #d7ecd5;
+}.circle {
+    width: 150px;
+    height: 150px;
+    background-image: url('img/line_120920913630048.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+}
